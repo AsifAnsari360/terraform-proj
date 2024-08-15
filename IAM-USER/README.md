@@ -1,7 +1,7 @@
 To create an IAM (Identity and Access Management) user in AWS, follow these steps:
 
 ## 1. Sign in to the AWS Management Console:
-- Go to the AWS Management Console.
+- Go to the [AWS Management Console.](https://aws.amazon.com/console/)
 - Sign in with your AWS root account credentials or as an IAM user with the necessary permissions to create users.
 ## 2. Navigate to IAM:
 - In the AWS Management Console, find and click on IAM under the Security, Identity, & Compliance section.
