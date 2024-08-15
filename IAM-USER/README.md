@@ -27,6 +27,6 @@ To create an IAM (Identity and Access Management) user in AWS, follow these step
 ## 7. Review and Create:
 - Review the user's details and permissions.
 - Click on Create user.
-# 8. Download Credentials:
+## 8. Download Credentials:
 - On the confirmation screen, you will see an option to Download .csv. This file contains the user's Access Key ID and Secret Access Key.
 - Important: This is the only time you can download the secret access key. Save this file securely.
