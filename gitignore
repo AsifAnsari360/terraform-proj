@@ -1,0 +1,4 @@
+*terraform*
+*.pem
+!.terraform.lock.hcl
+!terraform.tf
