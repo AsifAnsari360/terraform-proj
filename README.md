@@ -77,22 +77,35 @@ You can also use the key pair that you are currently using for the EC2 instance 
 
 - Now RUN the following command to add Access Key ID, Secret Access Key and region.
 ```bash
-aws configure --profile terraform-user
+aws configure --profile terraform-user   # Add your IAM username
 ```
 Leave the Default output format blank, and press Enter.
+
+![awscli](https://github.com/user-attachments/assets/2d8ae517-b2d5-4f1a-8265-3c6c123fce25)
+
 
 ## Usage
 - Execute the command `terraform init` to setup the project workspace.
 ```bash
 terraform init
 ```
+![init](https://github.com/user-attachments/assets/2bc65364-42e7-446e-a847-6925198a3d6d)
+
 - Execute the command `terraform apply` to provision the infrastructure. This will create a VPC with Private and Public Subnets, a NAT Gateway and three EC2 instances.
 ```bash
 terraform apply
 ```
+![apply](https://github.com/user-attachments/assets/8180999e-86ba-4c54-8cb2-f6c5c09726b2)
+
+After running the above command at the end, you will get output. Copy the Public IP address and paste it on any web browser, you can see your HTML web page.
+
+![nginx](https://github.com/user-attachments/assets/f3888691-5a2a-4cac-9ac9-b9231121e6f1)
+
 - Execute the command `terraform destroy` to destroy the infrastructure.
 ```bash
 terraform destroy
 ```
+![destroy](https://github.com/user-attachments/assets/05c622d5-f18b-419d-9cbd-a12db9a37e7c)
+
 ## Note
 The resources created in this example may incur cost. So please take care to destroy the infrastructure if you don't need it.
